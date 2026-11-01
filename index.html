@@ -111,6 +111,13 @@ section.alt{background:var(--white)}
   .eng td + td{margin-top:12px}
 }
 
+.orgs{padding:36px 0;border-top:1px solid var(--hair);border-bottom:1px solid var(--hair)}
+.orgs-row{display:flex;flex-wrap:wrap;align-items:center;gap:16px 40px}
+.org-list{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:10px 36px;flex:1}
+.org-list li{font-family:var(--serif);font-size:1.45rem;color:var(--ink);line-height:1.2}
+.org-link{font-size:.78rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);text-decoration:none;border-bottom:1px solid currentColor;padding-bottom:2px;white-space:nowrap}
+@media (max-width:760px){.org-list{gap:6px 24px}.org-list li{font-size:1.25rem}}
+
 /* beyond */
 .beyond{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:32px}
 .panel{background:var(--paper);border:1px solid var(--hair);padding:30px 34px}
@@ -141,7 +148,7 @@ section.alt{background:var(--white)}
     <ul>
       <li><a href="#mandates">Mandates</a></li>
       <li><a href="#principles">Principles</a></li>
-      <li><a href="#engagements">Engagements</a></li>
+      <li><a href="#experience">Experience</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
   </div>
@@ -153,7 +160,7 @@ section.alt{background:var(--white)}
       <span class="kicker">Talent and People Leader</span>
       <h1>Radhika Sood</h1>
       <p class="thesis">Great companies are built one hire at a time.</p>
-      <p class="intro-line">I help C-suite leaders and founders build the teams their strategy depends on, with a hiring process that puts people first and uses AI to move faster.</p>
+      <p class="intro-line">I partner with C-suite leaders to build the teams their strategy depends on, with a hiring process that puts people first and uses AI to move faster.</p>
       <div class="actions">
         <a class="btn primary" href="Radhika_Sood_Resume.pdf" download>Download resume</a>
         <a class="btn ghost" href="https://www.linkedin.com/in/radhikasood" target="_blank" rel="noopener">LinkedIn</a>
@@ -172,33 +179,24 @@ section.alt{background:var(--white)}
   </div>
 </header>
 
-<div class="band" aria-label="Selected results">
-  <div class="wrap grid">
-    <div><span class="v">2×</span><span class="k">Headcount growth as first talent leader after a Series A</span></div>
-    <div><span class="v">−20%</span><span class="k">Time-to-hire through workforce planning</span></div>
-    <div><span class="v">90%+</span><span class="k">Offer acceptance on Google engineering hires</span></div>
-    <div><span class="v">40%</span><span class="k">Diverse representation on final slates</span></div>
-  </div>
-</div>
-
 <section id="mandates">
   <div class="wrap">
     <div class="head">
       <span class="kicker">What I'm brought in to do</span>
       <h2>Three Mandates</h2>
-      <p>Where I add the most value: when hiring is what stands between the plan and the result.</p>
+      <p>Where I add the most value: When hiring is what stands between the plan and the result.</p>
     </div>
     <div class="cards">
       <article class="card">
         <span class="n">i.</span>
-        <h3>Build the Function</h3>
+        <h3>Build Recruiting from the Ground Up</h3>
         <ul class="dots">
           <li>Hiring Plan Co-Owned with the C-Suite</li>
           <li>Structured Interviews and Scorecards</li>
           <li>Offers Within Pay Bands</li>
           <li>Tools, Team and Audit-Ready Process from Day One</li>
         </ul>
-        <div class="proof"><b>SponsorUnited</b>Scaled hiring as the company grew from 70 to 145, with recruiting audit-ready for SOC 2</div>
+        <div class="proof"><b>SponsorUnited</b>First talent leader after a Series A; recruiting audit-ready for SOC 2</div>
       </article>
       <article class="card">
         <span class="n">ii.</span>
@@ -209,7 +207,7 @@ section.alt{background:var(--white)}
           <li>Steady Hiring Through Growth and Acquisition</li>
           <li>Managers Trained to Own Their Part</li>
         </ul>
-        <div class="proof"><b>UST HealthProof</b>Moved two systems onto one and cut cost-per-hire by 18%</div>
+        <div class="proof"><b>UST HealthProof</b>Unified two hiring systems into one and trained 60+ leaders</div>
       </article>
       <article class="card">
         <span class="n">iii.</span>
@@ -220,7 +218,7 @@ section.alt{background:var(--white)}
           <li>Direct Outreach to People Who Are Not Applying</li>
           <li>A Candidate Experience People Talk About</li>
         </ul>
-        <div class="proof"><b>Google</b>Hired 28 engineers in 12 months with 90%+ accepting</div>
+        <div class="proof"><b>Google</b>Partnered with engineering leaders on calibration, leveling and the hiring bar</div>
       </article>
     </div>
   </div>
@@ -242,42 +240,13 @@ section.alt{background:var(--white)}
   </div>
 </section>
 
-<section id="engagements">
-  <div class="wrap">
-    <div class="head">
-      <span class="kicker">Selected engagements</span>
-      <h2>Where the Work Was Done</h2>
-    </div>
-    <table class="eng">
-      <thead><tr><th>Organization</th><th>Mandate</th><th>Results</th></tr></thead>
-      <tbody>
-        <tr>
-          <td><div class="org">SponsorUnited</div><div class="sub">Director, Talent Acquisition · 2022 to Present</div></td>
-          <td>First talent leader at a venture-backed SaaS and AI data company. Built recruiting from zero, led executive searches and guided people through the acquisition by Spectrum.</td>
-          <td><ul class="dots"><li>70 to 145 Employees</li><li>+25% Successful Hires</li><li>−20% Time-to-Hire</li></ul></td>
-        </tr>
-        <tr>
-          <td><div class="org">Google</div><div class="sub">Senior Talent Consultant · 2021 to 2022</div></td>
-          <td>Hired software engineers from early-career to senior levels, working with engineering leaders on leveling and the hiring bar.</td>
-          <td><ul class="dots"><li>28 Engineers in 12 Months</li><li>90%+ Offer Acceptance</li></ul></td>
-        </tr>
-        <tr>
-          <td><div class="org">Yale University</div><div class="sub">Senior TA Executive, Consultant · 2022</div></td>
-          <td>Brought one consistent, fair interview standard to five university departments.</td>
-          <td><ul class="dots"><li>40+ Roles in One Quarter</li><li>Six Recruiters Coached</li></ul></td>
-        </tr>
-        <tr>
-          <td><div class="org">UST HealthProof</div><div class="sub">Principal, Talent Acquisition · 2016 to 2021</div></td>
-          <td>Unified hiring on one platform, trained 60+ leaders and built a team in Latin America.</td>
-          <td><ul class="dots"><li>120+ Hires a Year, 550+ in Five Years</li><li>−18% Cost-per-Hire</li><li>40% Diverse Slates</li></ul></td>
-        </tr>
-        <tr>
-          <td><div class="org">UST Global</div><div class="sub">Senior TA Manager · 2008 to 2016</div></td>
-          <td>Led a 12-person team in the US and India serving 50+ client accounts.</td>
-          <td><ul class="dots"><li>350+ Placements a Year</li><li>85% Fill Rate</li><li>$8M Portfolio</li></ul></td>
-        </tr>
-      </tbody>
-    </table>
+<section class="orgs" id="experience">
+  <div class="wrap orgs-row">
+    <span class="kicker">Teams Built For</span>
+    <ul class="org-list">
+      <li>SponsorUnited</li><li>Google</li><li>Yale University</li><li>UST HealthProof</li><li>UST Global</li>
+    </ul>
+    <a class="org-link" href="Radhika_Sood_Resume.pdf" download>Full Resume →</a>
   </div>
 </section>
 
