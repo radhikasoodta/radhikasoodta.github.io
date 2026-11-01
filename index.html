@@ -72,7 +72,7 @@ nav ul a:hover{color:var(--ink)}
 
 /* sections */
 section{padding:64px 0}
-section.alt{background:var(--white)}
+section.alt{background:var(--white);border-top:1px solid var(--hair);border-bottom:1px solid var(--hair)}
 .head{margin-bottom:32px}
 .head h2{font-size:clamp(2rem,4vw,2.8rem);margin-top:10px}
 .head p{margin:10px 0 0;font-size:1.05rem;color:var(--muted)}
@@ -80,7 +80,7 @@ section.alt{background:var(--white)}
 
 /* mandates */
 .cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:32px}
-.card{background:var(--white);border:1px solid var(--hair);border-top:2px solid var(--navy);padding:30px 32px;display:flex;flex-direction:column}
+.card{background:var(--paper);border:1px solid var(--hair);border-top:2px solid var(--navy);padding:30px 32px;display:flex;flex-direction:column}
 .card .n{font-family:var(--serif);font-style:italic;color:var(--gold);font-size:1.1rem}
 .card h3{font-size:1.6rem;margin:6px 0 14px}
 .card ul.dots{font-size:.93rem;margin-bottom:18px}
@@ -111,11 +111,12 @@ section.alt{background:var(--white)}
   .eng td + td{margin-top:12px}
 }
 
-.orgs{padding:36px 0;border-top:1px solid var(--hair);border-bottom:1px solid var(--hair)}
+.orgs{padding:36px 0;background:var(--navy)}
+.orgs .kicker{color:#C9A35E}
 .orgs-row{display:flex;flex-wrap:wrap;align-items:center;gap:16px 40px}
 .org-list{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:10px 36px;flex:1}
-.org-list li{font-family:var(--serif);font-size:1.45rem;color:var(--ink);line-height:1.2}
-.org-link{font-size:.78rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);text-decoration:none;border-bottom:1px solid currentColor;padding-bottom:2px;white-space:nowrap}
+.org-list li{font-family:var(--serif);font-size:1.45rem;color:#fff;line-height:1.2}
+.org-link{font-size:.78rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:#C9A35E;text-decoration:none;border-bottom:1px solid currentColor;padding-bottom:2px;white-space:nowrap}
 @media (max-width:760px){.org-list{gap:6px 24px}.org-list li{font-size:1.25rem}}
 
 /* beyond */
@@ -179,7 +180,7 @@ section.alt{background:var(--white)}
   </div>
 </header>
 
-<section id="mandates">
+<section class="alt" id="mandates">
   <div class="wrap">
     <div class="head">
       <span class="kicker">What I'm brought in to do</span>
@@ -224,7 +225,7 @@ section.alt{background:var(--white)}
   </div>
 </section>
 
-<section class="alt" id="principles">
+<section id="principles">
   <div class="wrap">
     <div class="head">
       <span class="kicker">How I lead</span>
