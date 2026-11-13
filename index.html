@@ -101,6 +101,15 @@ section.alt{background:var(--white);border-top:1px solid var(--hair);border-bott
 @media (max-width:980px){.principles{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media (max-width:600px){.principles{grid-template-columns:1fr;gap:28px}}
 
+/* ai in hiring */
+.steps{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:32px}
+.step{background:var(--paper);border:1px solid var(--hair);border-top:2px solid var(--gold);padding:28px 30px}
+.step h3{font-size:1.5rem;margin:6px 0 12px}
+.step p{margin:0;font-size:.93rem}
+.guard{margin:28px 0 0;font-size:.92rem;color:var(--ink);border-left:2px solid var(--gold);padding-left:16px}
+.guard b{font-weight:600}
+@media (max-width:900px){.steps{grid-template-columns:1fr;gap:20px}}
+
 /* engagements */
 .eng{width:100%;border-collapse:collapse;font-size:.93rem}
 .eng th{font-size:.68rem;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);text-align:left;padding:0 28px 14px 0;border-bottom:1px solid var(--ink)}
@@ -265,6 +274,21 @@ section.alt{background:var(--white);border-top:1px solid var(--hair);border-bott
   </div>
 </section>
 
+<section class="alt" id="ai-in-hiring">
+  <div class="wrap">
+    <div class="head">
+      <span class="kicker">In practice</span>
+      <h2>How I Use AI in Hiring</h2>
+    </div>
+    <div class="steps">
+      <div class="step"><span class="kicker">01</span><h3>Define and Source</h3><p>AI turns the hiring manager intake into a one-line brief and must-haves, drafts Boolean and X-ray search strings, ranks candidates against the scorecard and drafts personalized outreach. The recruiter calibrates with the hiring manager, shortlists and sends every message.</p></div>
+      <div class="step"><span class="kicker">02</span><h3>Screen and Select</h3><p>AI suggests screening questions tied to the role and summarizes Zoom interviews. Recruiters lead every conversation and consolidate panel feedback into a clear recommendation for leadership.</p></div>
+      <div class="step"><span class="kicker">03</span><h3>Offer and Report</h3><p>AI routes offer approvals, prepares onboarding notices and refreshes hiring dashboards. Recruiters deliver every offer personally and turn the data into advice for leaders.</p></div>
+    </div>
+    <p class="guard"><b>Guardrails:</b> no protected characteristics in any criteria, candidates told when AI takes notes, and a person makes every decision.</p>
+  </div>
+</section>
+
 <section class="orgs" id="experience">
   <div class="wrap orgs-row">
     <span class="kicker">Teams Built For</span>
@@ -299,7 +323,7 @@ section.alt{background:var(--white);border-top:1px solid var(--hair);border-bott
         <dl>
           <div><dt>Education</dt><dd>Leadership Certificate in Diversity and Inclusion, Cornell University</dd><dd>Certified Recruiter (RACR), Recruiter Academy</dd><dd>Bachelor of Arts, Delhi University</dd></div>
           <div><dt>Platforms</dt><dd>Ashby, Greenhouse, Workday, iCIMS, LinkedIn Recruiter, Gem, Tableau, Power BI</dd></div>
-          <div><dt>AI tools</dt><dd>Claude, ChatGPT</dd></div>
+          <div><dt>AI tools</dt><dd>Claude, ChatGPT, Zoom AI Companion</dd></div>
         </dl>
       </div>
     </div>
